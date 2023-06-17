@@ -1165,7 +1165,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💠 ʜᴇʟᴘ 💠', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🤖Bot Updates🤖', callback_data='money_bot')
+            InlineKeyboardButton('🎭 ʀsᴋ ᴍᴏᴠɪᴇs 🎭 ', callback_data='money_bot')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1264,7 +1264,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇌ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🧑‍🎓 ᴏᴡɴᴇʀ​', callback_data='owner_info'),
-            InlineKeyboardButton('🌿 sᴜᴘᴘᴏʀᴛ​', url='https://t.me/+8vZTQtzo0lBmNDY9')
+            InlineKeyboardButton('🌿 sᴜᴘᴘᴏʀᴛ​', url='https://t.me/RSK_MOVIEz')
             ],[      
             InlineKeyboardButton('💠 ʜᴇʟᴘ 💠', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
@@ -1368,7 +1368,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('🎁 Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇꜱ 🎁', callback_data='help2')  
+            InlineKeyboardButton('🍷 ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇꜱ 🍷 ', callback_data='help2')  
         ], [
             InlineKeyboardButton('∙ ꜰɪʟᴛᴇʀs ∙', callback_data='filters'),
             InlineKeyboardButton('∙ ꜰɪʟᴇ sᴛᴏʀᴇ ∙', callback_data='store_file')
@@ -1615,33 +1615,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             
     elif query.data == "help2":
         buttons = [[                               
-            InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ​', callback_data='tele'),
-            InlineKeyboardButton('sʜᴀʀᴇ ᴛᴇxᴛ​', callback_data='share_txt'),
-            InlineKeyboardButton('ɢᴇɴ-ᴘᴀss​', callback_data='gen_pass')
+            InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴩʜ', callback_data='tele')
             ],[
-            InlineKeyboardButton('sᴏɴɢ', callback_data='song'),
-            InlineKeyboardButton('ᴠɪᴅᴇᴏ', callback_data='video'),
-            InlineKeyboardButton('ᴘᴜʀɢᴇ​', callback_data='purge')
+            InlineKeyboardButton('sᴏɴɢ', callback_data='song')
+            ],[
+            InlineKeyboardButton('ᴠɪᴅᴇᴏ', callback_data='video')            
             ],[           
-            InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='json'),
-            InlineKeyboardButton('ᴛᴛs', callback_data='tts'),           
-            InlineKeyboardButton('ғᴏɴᴛ', callback_data='font')
-            ],[
-            InlineKeyboardButton('ᴀᴜᴅʙᴏᴏᴋ', callback_data='abook'),
-            InlineKeyboardButton('ᴜʀʟ_sʜᴏʀᴛ', callback_data='urlshort'),
-            InlineKeyboardButton('ᴘɪɴɢ', callback_data='pings')                                   
-            ],[                               
-            InlineKeyboardButton('ᴘɪɴ​', callback_data='pin'),
+            InlineKeyboardButton('ᴘɪɴ', callback_data='pin'),
             InlineKeyboardButton('ᴋɪᴄᴋ', callback_data='zombies'),
             InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric')
-            ],[
-            InlineKeyboardButton('sᴛɪᴄᴋɪᴅ', callback_data='sticker'),
-            InlineKeyboardButton('ᴡʜᴏɪs', callback_data='whois'),
-            InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='corona')
-            ],[
-            InlineKeyboardButton('ᴄᴏᴜɴᴛʀʏ', callback_data='country'),
-            InlineKeyboardButton('ɢᴛʀᴀɴs', callback_data='gtrans'),
-            InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carb')
             ],[
             InlineKeyboardButton('⟲ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ​⟳', callback_data='help')
          ]]
