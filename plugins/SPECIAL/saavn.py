@@ -8,7 +8,7 @@ import requests,os,wget
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import asyncio
 from info import LOG_CHANNEL
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖🇮🇳✨ Made By ✨🇮🇳💖', url='https://t.me/RSK_movies')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖🇮🇳✨ Made By ✨🇮🇳💖', url='https://t.me/Susil25sk')]])
 A = """{} with user id:- {} used /saavn command."""
 B = """{} with user id:- {} used /vsaavn command."""
 
@@ -16,9 +16,6 @@ B = """{} with user id:- {} used /vsaavn command."""
 
 START_MESSAGE = """
 𝐇𝐞𝐥𝐥𝐨 <a href='tg://settings'>𝐓𝐡𝐚𝐧𝐤 𝐘𝐨𝐮⚡️</a>
-
-𝐑𝐮𝐥𝐞𝐬 𝐀𝐧𝐝 𝐁𝐨𝐭 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 <a href='http://telegra.ph/Minnal-murali-03-06-12'>𝐂𝐥𝐢𝐜𝐤⚡️</a>
-
 
 𝐅𝐨𝐫 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 :-
 /ssong 𝐀𝐥𝐨𝐧𝐞✔️ =-= 𝐬𝐚𝐚𝐯𝐧 𝐦𝐩𝟑 𝐬𝐨𝐧𝐠
@@ -69,10 +66,10 @@ async def video(client, message):
     ffile = file.replace("mp3", "mp4")
     os.rename(file, ffile)
     buttons = [[
-        InlineKeyboardButton("JOIN MOVIES", url="https://t.me/+e_UqPGvuQ5E5NGU1")
+        InlineKeyboardButton("JOIN MOVIES", url="https://t.me/RSK_MOVIEz")
     ]]                           
     await message.reply_video(
-    video=ffile, caption=f"[{sname}]({r['data']['results'][0]['url']}) - from @royal_engfield_bot_updates ",thumb=thumbnail,
+    video=ffile, caption=f"[{sname}]({r['data']['results'][0]['url']}) - from @RSK_MOVIEz ",thumb=thumbnail,
     reply_markup=InlineKeyboardMarkup(buttons)
 )
     await message.reply_text(text="download mp3 song")
