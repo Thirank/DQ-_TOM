@@ -66,7 +66,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ›› [🍁 ᴄʜᴀɴɴᴇʟ 🍁](https://t.me/Royal_Enfield_bot_Updates)**\n**𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ›› [OWNER](https://t.me/maharaja_91)**\n@Royal_Enfield_bot_Updates**'
+        rep = '**𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ›› [🍁 ᴄʜᴀɴɴᴇʟ 🍁](https://t.me/RSK_UPDATES)**\n**𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ›› [OWNER](https://t.me/maharaja_91)**\n@Royal_Enfield_bot_Updates**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
