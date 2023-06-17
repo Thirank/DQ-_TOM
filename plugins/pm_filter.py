@@ -1269,7 +1269,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💠 ʜᴇʟᴘ 💠', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🤖Bot Updates🤖', callback_data='money_bot')
+            InlineKeyboardButton('🎭 ʀsᴋ ᴍᴏᴠɪᴇs 🎭 ', callback_data='money_bot')
         ]]  
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1293,7 +1293,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "money_bot":
         buttons = [[
-            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ sᴜᴘᴘᴏʀᴛ', url='https://t.me/maharaja_91')
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ sᴜᴘᴘᴏʀᴛ', url='https://t.me/Susil25sk')
         ],[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ ⊝', callback_data='close_data')
@@ -1554,7 +1554,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "extra":
         buttons = [[
-            InlineKeyboardButton('⚙ ᗩᗞᗰᏆᑎ ᝪᑎᏞᎩ​ ⚙', callback_data='admin')
+            InlineKeyboardButton('⚙ ᗩᗞᗰᏆᑎ ᝪᑎᏞᎩ ⚙', callback_data='admin')
         ],[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help')
         ]]
