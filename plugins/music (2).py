@@ -69,7 +69,7 @@ async def song(_, message):
       finally:
           try:
               shutil.rmtree(randomdir)
-              await message.reply_text(f"ᴩᴏᴡᴇʀᴇᴅ ʙʏ - @RSK_MOVIEz")
+              await message.reply_text(f"ᴩᴏᴡᴇʀᴇᴅ ʙʏ - @Mc_Group_Films")
               return await k.delete() 
           except:
               pass
