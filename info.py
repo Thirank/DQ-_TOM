@@ -55,8 +55,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Custom Chats
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', ''))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', '')
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001598939419'))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+anMH0Xlu2mk3ODFl')
 
 # This is required for the plugins involving the file system.
 TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
@@ -110,8 +110,8 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 #redict
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/Royal_Enfield_bot_Updates")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+xZk8LiD7K2oyODQ1")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/Mc_films_channel")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+anMH0Xlu2mk3ODFl")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 
