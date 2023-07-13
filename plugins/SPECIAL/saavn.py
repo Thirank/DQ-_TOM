@@ -8,7 +8,7 @@ import requests,os,wget
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import asyncio
 from info import LOG_CHANNEL
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖🇮🇳✨ Made By ✨🇮🇳💖', url='https://t.me/Susil25sk')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖🇮🇳✨ Made By ✨🇮🇳💖', url='https://t.me/Thiranitsme')]])
 A = """{} with user id:- {} used /saavn command."""
 B = """{} with user id:- {} used /vsaavn command."""
 
@@ -66,7 +66,7 @@ async def video(client, message):
     ffile = file.replace("mp3", "mp4")
     os.rename(file, ffile)
     buttons = [[
-        InlineKeyboardButton("JOIN MOVIES", url="https://t.me/RSK_MOVIEz")
+        InlineKeyboardButton("JOIN MOVIES", url="https://t.me/Mc_Group_Films")
     ]]                           
     await message.reply_video(
     video=ffile, caption=f"[{sname}]({r['data']['results'][0]['url']}) - from @RSK_MOVIEz ",thumb=thumbnail,
@@ -120,7 +120,7 @@ async def song(client, message):
 async def r_message(client, message):
     mention = message.from_user.mention
     buttons = [[
-        InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/RSK_MOVIEz')
+        InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/Mc_Group_Films')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_text(START_MESSAGE.format(message.from_user.mention, message.chat.title),
