@@ -56,7 +56,7 @@ async def autoapprove(client: pr0fess0r_99, message: ChatJoinRequest):
     await client.approve_chat_join_request(chat_id=chat.id, user_id=user.id)
     if APPROVED == "on":
         buttons = [[
-            InlineKeyboardButton('🧩𝐉𝐎𝐈𝐍 𝐆𝐑𝐎𝐔𝐏🧩', url=f'https://t.me/+8vZTQtzo0lBmNDY9')
+            InlineKeyboardButton('🧩𝐉𝐎𝐈𝐍 𝐆𝐑𝐎𝐔𝐏🧩', url=f'https://t.me/Mc_Group_Films')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
